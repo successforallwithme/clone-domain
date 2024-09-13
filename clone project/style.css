@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #121921;
+    color: white;
+}
+
+.border:hover {
+    border: 1.9px solid white;
+
+}
+
+.logo {
+    background-image: url(amazon\ logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 110px;
+}
+
+.add-fir {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 650;
+}
+
+.add-logo {
+    display: flex;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 580px;
+    background-color: #febd69;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 3px solid #febd69;
+}
+
+.search-select {
+    background-color: #E6E6E6;
+    width: 51px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #4a320f;
+
+}
+
+.nationalty {
+    display: flex;
+    justify-content: center;
+
+}
+
+.flag-icon {
+    background-image: url(flag\ icon.png);
+    background-size: cover;
+    height: 16px;
+    margin-top: 5px;
+    width: 21px;
+
+}
+
+.language {
+    color: #faf4ee;
+    font-size: 14px;
+    font-weight: 650;
+    margin: 5px 0px 0px 5px;
+
+
+}
+
+.nav-language-select {
+    font-size: 0.6rem;
+    margin: 10px 0px 0px 2px;
+    color: #878d95;
+
+}
+
+.nav-singin {
+    display: block
+}
+
+.first {
+    font-size: 0.7rem;
+}
+
+.nav-singin-sec {
+    display: flex;
+    align-items: baseline;
+}
+
+.secon {
+    font-size: 0.8rem;
+    font-weight: 650;
+}
+
+.singin-icon {
+    font-size: 0.6rem;
+    margin-left: 5px;
+    color: #878d95
+}
+
+.return {
+    font-size: 0.8rem;
+}
+
+.orders {
+    font-size: 0.99rem;
+    font-weight: 650;
+}
+
+.nav-cart i {
+    font-size: 1.6rem;
+}
+
+.nav-cart {
+    font-size: 0.99rem;
+    font-weight: 650;
+}
+
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #232f3f;
+    color: #e6eee3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    font-weight: 700;
+}
+
+.panel-ops {
+    width: 75%;
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+
+.panel-ops a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #e6eee3;
+}
+
+.panel-store {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.border2:hover {
+    border: 2px solid white;
+    padding: 9px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+
+}
+
+.hero-msg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f5f7f6;
+    font-size: 0.85rem;
+    height: 35px;
+    width: 97%;
+
+}
+
+.hero-msg a {
+    color: #336f7c;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #f5ebd3;
+    height: 1250px;
+}
+
+.content-material {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content>div {
+    height: 32%;
+
+}
+
+.content-material>div {
+    background-color: white;
+    width: 32%;
+    height: 100%;
+
+}
+.content-box{
+    display: flex;
+}
+.content-box > div{
+height: 100%;
+width: 100%;
+}
+.content-box-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     margin:0px 20px 0px 20px;
+}
+.content-box-div h2{
+    margin-top: 20px;
+}
+.content-box-div a{
+    margin-bottom: 20px;
+}
+#box1-img{
+    background-image: url(box1_image.jpg);
+    background-size:cover;
+    height: 75%;
+
+}
+#box2-img{
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box3-img{
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box4-img{
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box5-img{
+    background-image: url(box5_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box6-img{
+    background-image: url(box6_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box7-img{
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box8-img{
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    height: 75%;
+}
+#box9-img{
+    background-image: url(gaming\ station.jpg);
+    background-size: cover;
+    height: 75%;
+}
+.anchor-colour{
+    color: #5b8a98;
+    font-size: 0.8rem;
+}
+.content-box :hover a{
+   color: rgb(252, 12, 12);
+}
